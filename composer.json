@@ -1,0 +1,24 @@
+{
+	"minimum-stability": "dev",
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "http://composer.typo3.org/"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:TYPO3-Caretaker/caretaker.git"
+		},
+		{
+			"type": "vcs",
+			"url": "git@github.com:TYPO3-Caretaker/caretaker_instance.git"
+		}
+	],
+	"require": {
+		"typo3/cms": "6.2.*",
+		"typo3-ter/tt-address": "*",
+		"caretaker/caretaker": "dev-master",
+		"caretaker/caretaker_instance": "dev-master"
+	}
+}
+
