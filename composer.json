@@ -15,10 +15,9 @@
 		}
 	],
 	"require": {
-		"typo3/cms": "~6.2",
-		"typo3-ter/tt-address": "*",
+		"typo3/cms": "6.2.9",
 		"caretaker/caretaker": "dev-master",
-		"caretaker/caretaker_instance": "dev-master"
+		"caretaker/caretaker_instance": "dev-master",
+		"typo3-ter/tt-address": "~2.3"
 	}
 }
-
